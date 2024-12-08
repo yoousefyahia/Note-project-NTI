@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    color: #333;
+}
+body{
+    background-color:rgb(242, 242, 242);
+    color: red;
+    scroll-behavior: smooth;
+}
+.start{
+    margin: 0;
+}
+label {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input, textarea, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#tasksContainer {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 300px;
+}
+
+.task {
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    position: relative;
+    color: black;
+}
+
+.task h2, .task p, .task small {
+    margin: 5px 0;
+}
+
+.task .actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.task .actions button {
+    margin-left: 5px;
+    margin-top: -5px;
+    cursor: pointer;
+}
